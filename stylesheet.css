@@ -1,0 +1,248 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: #008000;
+}
+.navbar ul{
+    list-style-type: none;
+    background-color: #5CE65C;
+    padding: 0px;
+    overflow: hidden;
+}
+
+.navbar{
+    position: sticky;
+    top: 0;
+}
+
+.navbar a{
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    text-align: center;
+    font-size: larger;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 300;
+}
+
+.navbar li{
+    float: left;
+}
+
+.navbar a:link{
+    color: #0F4D0F;
+}
+
+.navbar a:visited{
+    color: #94903E;
+}
+
+.navbar a:hover{
+    background-color: #CCFFCC;
+}
+
+.navbar a:active{
+    color: rgb(0, 0, 0);
+}
+
+.navlinks li, a{
+    transition: all 0.5s ease 0s;
+}
+.picture {
+    display: flex;
+    width: 100%;
+    height: 50%;
+    background-color: #CCFFCC;
+    border: 10px solid #0F4D0F;
+    border-radius: 10%;
+    transition: all 0.5s ease 0s;
+    align-content: center;
+    margin: auto;
+    padding: auto;
+}
+
+.picture:hover{
+    transform: scale(1.08);
+      box-shadow: 0 6px 12px rgba(0,0,0,0.3);
+      z-index: 2;
+      font-weight: bold;
+}
+
+.gallery{
+    display: inline-block;
+    margin-right: 100px;
+    margin-left: 50px;
+    align-content:  center;
+}
+
+.caption{
+    text-align: center;
+    background-color: #CCFFCC;
+    border-radius: 5%;
+    border: 10px solid #0F4D0F;
+    transition: all 0.5s ease 0s;
+}
+
+.caption:hover{
+    background-color: aquamarine;
+}
+
+.banner-image{
+    width: 100%;
+    height: 275px;
+    object-fit: cover;
+}
+
+.banner-card{
+    width: 100%;
+    height: 275px;
+    position: relative;
+}
+
+.blog-posts{
+    position: absolute;
+    left: 34%;
+    top: 7%;
+    font-size: 100px;
+    font-family:'Times New Roman', Times, serif
+}
+
+.gallery-photos{
+    position: absolute;
+    left: 21%;
+    top: 7%;
+    font-size: 100px;
+    font-family:'Times New Roman', Times, serif
+}
+
+.bahayko{
+    position: absolute;
+    left: 30%;
+    top: 7%;
+    font-size: 100px;
+    font-family:'Times New Roman', Times, serif
+}
+
+.allaboutme{
+    position: absolute;
+    left: 20%;
+    top: 7%;
+    font-size: 100px;
+    font-family:'Times New Roman', Times, serif
+}
+
+.heading h1{
+  position: relative;
+  z-index: 1;
+  color: #f0f8ff;
+}
+
+.publish-data{
+    color: #CCFFCC;
+    font-size: 1.2rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+.ulo{
+    font-size: 2.5rem;
+    font-weight: 800;
+    text-align: center;
+}
+
+.posts{
+    background-color: #CCFFCC;
+    width: 40%;
+    border: 10px solid #0F4D0F;
+    border-radius: 10%;
+    border-spacing: 10px;
+    margin-bottom: 20px;
+}
+
+.imahe{
+    width: 50%;
+    margin-bottom: 20px;
+    border: 10px solid #0F4D0F;
+}
+
+.wuwa{
+    color: #849E00;
+}
+
+.scott{
+    color: fuchsia;
+}
+
+.whiplash{
+    color: rgb(228, 196, 19);
+}
+
+.himeko{
+    text-align: center;
+    place-items: center;
+}
+
+.footer{
+    text-align: center;
+    background-color: #94903E;
+
+}
+
+.tagline{
+    background-color: #CCFFCC;
+    text-align: center;
+    width: 50%;
+    border: 10px solid #0F4D0F;
+    border-radius: 10px;
+}
+
+.kiana{
+    margin-left: 33%;
+}
+
+.mei{
+    margin-left: 23% ;
+}
+
+.paragraph{
+    background-color: #CCFFCC;
+    text-align: center;
+    width: 70%;
+    border: 10px solid #0F4D0F;
+    border-radius: 10px;
+}
+
+.my-image {
+  width: 200px;       
+  height: 200px;  
+  border-radius: 20%; 
+  object-fit: cover;  
+  object-position: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border: 10px solid #CCFFCC;
+}
+
+.myname{
+    text-align: center;
+}
+
+.aboutme{
+    text-align: center;
+}
+
+.hai{
+    color: #CCFFCC;
+}
+
+.dino{
+    background-color: #008000;
+}
+
+.iframe{
+    margin-left: 40%;
+}
